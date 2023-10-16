@@ -3,7 +3,7 @@
 
 Automatically help humans find codebases/tools to solve the task at hand.
 
-Problem: There are so many tools and repositories coming out. I feel that if I could access them in the moment, or eventually if an agent could access the right tool at the right time to include in its own code, that would help. 
+Problem: There are so many tools and repositories coming out. If I could access them in the moment, or eventually if an agent could access the right tool at the right time to include in its own code, that would help. 
 
 This tool: 
 - takes in a description of a problem that the user is trying to solve
