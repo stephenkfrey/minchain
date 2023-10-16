@@ -28,7 +28,7 @@ def main():
     # Step 4: Analyze results using LLM
     categorized_results, most_relevant = analyze_results(prompt, all_results)
 
-    print (f"\n\n--------------Categorized results:\n {categorized_results}")
+    print (f"\n\n--------------GitHub Repos most likely to help you-------------- \n query: {prompt}\n searched for: {search_terms} \n\n {categorized_results}")
 
     # # Step 5: Display results
     # print("Most Relevant Repositories:")
