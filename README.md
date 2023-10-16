@@ -1,9 +1,12 @@
 # minchain
 
+One step towards automated tool discovery for agents. 
 
-Automatically help humans find codebases/tools to solve the task at hand.
+In this first example, we browse GitHub for repositories that may help the user/agent to solve the problem at hand. 
 
-Problem: There are so many tools and repositories coming out. If I could access them in the moment, or eventually if an agent could access the right tool at the right time to include in its own code, that would help. 
+This tool is also useful to humans in the meantime. 
+
+Problem: If a human (or an agent) could access the right tool at the right time to include in its own code, then it could solve a wider range of problems. 
 
 This tool: 
 - takes in a description of a problem that the user is trying to solve
