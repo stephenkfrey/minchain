@@ -7,7 +7,7 @@ def main():
 
     # Step 2: Generate search terms
     search_terms = generate_search_terms(prompt)
-    print (f"\n\n-------------- Generated search terms:\n {search_terms}")
+    # print (f"\n\n-------------- Generated search terms:\n {search_terms}")
 
     all_results = []
 

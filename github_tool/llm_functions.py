@@ -17,7 +17,7 @@ def analyze_results(prompt, results):
         system_message="""You are helping the user to find tools and repositories relevant to their query. Here is a list of GitHub repositories that may have been relevant. Drawing DIRECTLY and ONLY from this list of repositories, please respond with the 10 repositories that are most relevant: determinine relevance based on the quality and content of the README, number of stars, and your interpretation of the relevance of the repo description to the user's problem. Only include English-language repositories.      
         Respond with a list of 10 repositories, each one in this format: 
         == 1. Title: <title>, URL: <url> == 
-        <Specific steps the user could take to use repository to address their query, based on the readme and their original query>
+        <Specific list of steps the user could take to use repository to address their query, based on the readme and their original query>
         """,
 
         user_message="""Here is the issue or problem the user is trying to address: {prompt}. 
