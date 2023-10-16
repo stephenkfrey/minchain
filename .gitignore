@@ -1,2 +1,5 @@
 
 .env
+github_tool/__pycache__/github_api_handler.cpython-310.pyc
+github_tool/__pycache__/helpers.cpython-310.pyc
+github_tool/__pycache__/llm_functions.cpython-310.pyc
